@@ -6,7 +6,9 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-    git add: the staging area collects the files for the next commit
+    git add: the staging area collects the files for the next commit, only once commited to the addes files enter a repository.
+    The repository exists independently of the staging area and working directory. The repository is not updated as the files in the working directory are updated.
+    Only the staged files are updated in the staging area as they are updated in the working directory.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
